@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <a href="index.html"></a>
+    <title>Registration Form</title>
+    <style>
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="date"],
+        textarea,
+        select {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;" style="text-decoration: overline;">Forum Pendaftaran UKM</h2>
+        <form action="#">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+        <label for="nama">NIK/NIM</label>
+        <input type="text" id="nama" name="nik">
+        <label for="nama">Kelas</label>
+        <input type="text" id="nama" name="kelas">
+        <label for="nama">Jurusan</label>
+        <input type="text" id="nama" name="jurusan">
+        <label for="tgl_lahir">Tgl Lahir:</label>
+        <input type="date" id="tgl_lahir" name="tgl_lahir">
+        <label for="alamat">Alamat</label>
+        <textarea id="alamat" name="alamat"></textarea>
+        <label for="kota">Kota</label>
+        <input type="text" id="kota" name="kota">
+        <label for="pekerjaan">Pekerjaan:</label>
+        <select id="pekerjaan" name="pekerjaan">
+            <option value="tani">Mahasiswa/Pelajar</option>
+            <option value="dokter">Dosen</option>
+            <option value="dokter">Buruh</option>
+            <option value="dokter">Karyawan Swasta</option>
+            <option value="dokter">Pegawa Negeri</option>
+            <option value="dokter">Pengusaha</option>
+        </select>
+        Jenis:
+        <input type="radio" name="gender" value="Laki-Laki" checked> Laki-Laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan<br>
+        Hobby: <br>
+        <input type="checkbox" name="hobby" value="Reading"> Reading<br>
+        <input type="checkbox" name="hobby" value="Sport"> Sport<br>
+        <input type="checkbox" name="hobby" value="Singing"> Singing<br>
+        <input type="checkbox" name="hobby" value="Traveling"> Traveling<br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
